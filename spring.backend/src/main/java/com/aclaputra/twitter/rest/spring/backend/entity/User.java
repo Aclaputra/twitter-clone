@@ -20,4 +20,6 @@ public class User {
   @GeneratedValue
   private int uid;
   private String ip;
+  private String name;
+  private String username;
 }
