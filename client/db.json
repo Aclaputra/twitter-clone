@@ -1,8 +1,68 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    { 
+      "uid": 1, 
+      "ip": "127.0.0.1", 
+      "name": "Elon Musk", 
+      "username": "elonmusk" 
+    },
+    {
+      "uid": 2, 
+      "ip": "127.0.0.2", 
+      "name": "zayn", 
+      "username": "zaynmalik"
+    },
+    {
+      "uid": 3, 
+      "ip": "127.0.0.3", 
+      "name": "YK aka CS Dojo", 
+      "username": "ykdojo"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+
+  "tweets": [
+    {
+      "tid": 1,
+      "date": "2022-11-08",
+      "post": "its morning in here, morning everyone.",
+      "uid": 1
+    },
+    {
+      "tid": 2,
+      "date": "2022-10-12",
+      "post": "tomorrow will be my second interview at apple developer academy.",
+      "uid": 1
+    },
+    {
+      "tid": 3,
+      "date": "2022-05-20",
+      "post": "its evening in here, good evening all.",
+      "uid": 2
+    },
+    {
+      "tid": 4,
+      "date": "2022-09-26",
+      "post": "its night in here, good evening all.",
+      "uid": 3
+    }
+  ],
+
+  "follows": [
+    {
+      "uid": 1,
+      "follower": 2
+    },
+    {
+      "uid": 1,
+      "follower": 3
+    },
+    {
+      "uid": 2,
+      "follower": 1
+    },
+    {
+      "uid": 3,
+      "follower": 1
+    }
   ]
 }
